@@ -1,0 +1,208 @@
+
+/*.spaceimg
+{
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+} */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('../images/space.png');
+  background-size: fill;
+  background-attachment: fixed;
+  color: white;
+}
+
+h1{
+  color: white; 
+}
+
+p{
+  text-align: justify;
+  color: white; 
+}
+
+h2{
+   color: white; 
+}
+
+hr{
+  color: white; 
+  border-width: 2.5px; 
+  border-style: dashed;
+}
+
+
+
+.linkTetris
+{
+  color: cyan;
+}
+
+.tetrominoes.images
+{
+  margin-left: 50px;
+  margin-right: 50px; 
+}
+
+/*--------------------Tetromino Cyan en I -----------------------*/
+
+/*.tetrominoCyan{
+  margin-left: 200px;
+}
+
+.cuadradoCyan{
+  width: 50px;
+  height: 50px;
+  background-color: cyan;
+  border-radius: 4px;
+  border: 10px;
+  border-style: groove;
+  border-color: white;
+}*/
+
+.tetrominoIVertical {
+  position: relative;
+  margin-left: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+
+}
+
+.cuadradoCyan {
+  width: 50px;
+  height: 50px;
+  background-color: cyan;
+  border: 5px; 
+  border-style: groove;
+  border-color: silver;
+}
+
+/*--------------------Tetromino Azul en L acostada-----------------------*/
+.tetrominoAzul{
+ margin-left: 200px;
+  margin-top: 50px;
+ margin-bottom: 50px; 
+}
+
+.cuadradoAzul{
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border: 5px;
+  border-style: groove;
+  border-color: silver;
+}
+
+/*--------------------Tetromino Naranja en L parada-----------------------*/
+
+.tetrominoNaranja
+{
+  margin-left: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px; 
+}
+
+.cuadradoNaranja
+{
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  border: 5px; 
+  border-style: groove;
+  border-color: silver;
+}
+
+/*--------------------Tetromino Amarillo en O-----------------------*/
+
+.tetrominoAmarillo
+{
+  margin-left: 200px;
+}
+
+.cuadradoAmarillo
+{
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  border: 5px; 
+  border-style: groove;
+  border-color: silver;
+}
+
+/*--------------------Tetromino Verde en S-----------------------*/
+
+.tetrominoVerde
+{
+  margin-left: 200px;
+ 
+}
+
+.cuadradoVerde
+{
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border: 5px; 
+  border-style: groove;
+  border-color: silver;
+}
+
+/*--------------------Tetromino Morado en T-----------------------*/
+.tetrominoMorado
+{
+  margin-left: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.saltiro
+{
+  margin: 50px; 
+}
+.cuadradoMorado
+{
+  width: 50px;
+  height: 50px;
+  background-color: purple;
+  border: 5px; 
+  border-style: groove;
+  border-color: silver;
+}
+
+/*--------------------Tetromino Rojo en Z-----------------------*/
+
+.tetrominoRojo
+{
+  margin-left: 200px;
+}
+
+.cuadradoRojo
+{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border: 5px; 
+  border-style: groove;
+  border-color: silver;
+}
+
+/*--------------------Referencias-----------------------*/
+.About
+{
+  color: cyan;
+}
+
+.refTetro
+{
+  color: cyan;
+}
+
+/*--------------------SubFondo Morado-----------------------*/
+.TrueBody{
+  width: 80vw;
+  /*margin-left: 10vw;*/
+  margin:auto;
+  padding: 30px;
+  background-color: #0e0418ea;
+}
